@@ -9,7 +9,7 @@ import "@testing-library/jest-dom";
 test("Muestra el mensaje de saludo con el nombre proporcionado", () => {
   render(<Saludo nombre="Juan" />);
 
-  expect(screen.getByText("Hola Juanito 👋🏼")).toBeInTheDocument();
+  expect(screen.getByText("Hola Juan 👋🏼")).toBeInTheDocument();
 });
 
 test("Otro test que será interesante de implementar", () => {
