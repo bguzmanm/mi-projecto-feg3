@@ -1,3 +1,5 @@
+import React from "react";
+
 const Saludo = ({ nombre }) => {
   return (
     <div>
